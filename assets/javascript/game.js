@@ -22,7 +22,7 @@ document.onkeyup=function (event) {
 		// call checking function on this line (checkGuessedLetter)
 		document.querySelector("#letters").innerHTML=game.guessedLetters;
 
-        // Brandon's changes - changed letters to game.guessedLetters in the line below
+        //changed letters to game.guessedLetters in the line below
 		var matchedIndices = checkGuessedLetter(game.guessedLetters);
 		game.wordShown=[];
 		for (var i = 0; i < wordRandomlySelected.length; i++) {
@@ -46,7 +46,7 @@ document.onkeyup=function (event) {
         /* Now, by using the matchedIndices array, all we need to do is make sure the number of matched indices
          * is equal to the number of non-space characters in the random string to be able to tell if the user won */
 
-		// TODAYS CODE 5/28/16
+		
 		//function to check if the letter is in the genereated word
 		
 		function checkGuessedLetter(letters){
@@ -60,7 +60,7 @@ document.onkeyup=function (event) {
 					}
 			}*/
 
-           // Brandon's changes
+           
            /* This function is going to return an array of numbers that will correspond to the matched
             * characters in the string. This way we will know which characters are matched and can show
             * them on the screen */
@@ -80,7 +80,7 @@ document.onkeyup=function (event) {
 
 		}
 
-		//END OF TODAYS CODE
+		
 
 
 		//game answers
