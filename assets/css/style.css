@@ -1,0 +1,32 @@
+body {
+	background-color: black;
+	background-image: url(http://www.wallpaper77.com/upload/DesktopWallpapers/cache/Route-163-landscape-desert-1440x900.jpg);
+}
+
+
+
+
+.header {
+	background-color: #b3cdee;
+    height: 170px;
+    width: 900px;
+    margin-right: 90px;
+    margin-left: 180px;
+}
+
+.game_window {
+	background-color: white;
+    height: 495px;
+    width: 536px;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+
+p {
+	text-align: center;
+}
+
+.music {
+	padding-bottom: 25px;
+}
