@@ -15,7 +15,7 @@ body {
 }
 
 .game_window {
-	background-color: white;
+	background-color:lightblue;
     height: 495px;
     width: 536px;
     position: absolute;
@@ -24,7 +24,25 @@ body {
 }
 
 p {
-	text-align: center;
+    text-align: center;
+    color: orange;
+    font-family: fantasy;
+    font-size: x-large;
+}
+
+p#go {
+    color: black;
+    font-family: 'chewy';
+}
+
+p#word {
+    color: black;
+    font-family: 'chewy';
+}
+
+p#letters {
+    color: black;
+    font-family: 'chewy';
 }
 
 .music {
