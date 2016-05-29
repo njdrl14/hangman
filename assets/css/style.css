@@ -30,6 +30,12 @@ p {
     font-size: x-large;
 }
 
+p#top {
+    color: white;
+    font-family: 'chewy';
+    font-size: medium;
+}
+
 p#go {
     color: black;
     font-family: 'chewy';
@@ -45,6 +51,4 @@ p#letters {
     font-family: 'chewy';
 }
 
-.music {
-	padding-bottom: 25px;
-}
+
